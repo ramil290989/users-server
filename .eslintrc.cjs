@@ -34,5 +34,6 @@ module.exports = {
     'import/default': 2,
     'import/export': 2,
     'import/extensions': [2, { js: 'ignorePackages' }],
+    'no-console': 0,
   },
 };
