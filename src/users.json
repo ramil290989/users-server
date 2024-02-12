@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "name": "Михаил Сантехов",
+    "email": "miha-santeh@user.ru",
+    "password": "mihasanteh",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 2,
+    "name": "Елена Поварова",
+    "email": "lena-povar@user.ru",
+    "password": "lenapovar",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 3,
+    "name": "Борис Адвокатов",
+    "email": "boris-advokat@user.ru",
+    "password": "borisadvokat",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },  {
+    "id": 4,
+    "name": "Татьяна Стоматологова",
+    "email": "tanya-stomat@user.ru",
+    "password": "tanyastomat",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 5,
+    "name": "Глеб Электриков",
+    "email": "gleb-electro@user.ru",
+    "password": "glebelectro",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 6,
+    "name": "Егор Пожаров",
+    "email": "egor-poghar@user.ru",
+    "password": "egorpoghar",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 7,
+    "name": "Анастасия Бухгалтерова",
+    "email": "anya-buh@user.ru",
+    "password": "anyabuh",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 8,
+    "name": "Антон Строев",
+    "email": "anton-stroy@user.ru",
+    "password": "antonstroy",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 9,
+    "name": "Андрей Рыбов",
+    "email": "andrey-rybov@user.ru",
+    "password": "andreyrybov",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },  {
+    "id": 10,
+    "name": "Константин Механиков",
+    "email": "kostya-meh@user.ru",
+    "password": "kostyameh",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 11,
+    "name": "Марат Водилов",
+    "email": "marat-vodilov@user.ru",
+    "password": "maratvodilov",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  },
+  {
+    "id": 12,
+    "name": "Тамара Училова",
+    "email": "toma-uch@user.ru",
+    "password": "tomauch",
+    "favoriteUsers": [],
+    "avatar": "",
+    "about": "" 
+  }
+]
