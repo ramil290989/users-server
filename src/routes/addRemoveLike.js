@@ -13,10 +13,13 @@ const like = (req, res) => {
     const userEmail = verify(token).email;
     const user = users.find((u) => u.email === userEmail);
     const { favoriteUsers } = user;
+    console.log(favoriteUsers);
+    console.log(likeId);
     favoriteUsers.includes(likeId)
       ? favoriteUsers.splice(favoriteUsers.indexOf(likeId), removedItem)
       : favoriteUsers.push(likeId);
-    console.log(`${user.name} add/remove like`);
+    console.log(`${userEmail} add/remove like`);
+    console.log(JSON.stringify(user));
     res.end();
   } catch (e) {
     res

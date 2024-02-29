@@ -5,12 +5,13 @@ const dataPath = '/data';
 
 const data = (req, res) => {
   try {
-    const { users } = state;
+    const { userList, users } = state;
     const token = req.headers.auth;
     const userEmail = verify(token).email;
     const user = users.find((u) => u.email === userEmail);
-    console.log(`${user.name} fetch data`);
-    res.send(users);
+    const { uId, favoriteUsers } = user;
+    console.log(`${userEmail} fetch data`);
+    res.send({ userList, uId, favoriteUsers });
   } catch (e) {
     res
       .status(403)

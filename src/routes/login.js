@@ -8,7 +8,7 @@ const login = (req, res) => {
   const { email, password } = req.body;
   const user = users.find((u) => u.email === email);
   if (user && user.password === password) {
-    console.log(`${user.name} login`);
+    console.log(`${user.email} login`);
     const token = generateToken(user.email);
     res.send({ token, email });
   } else {
