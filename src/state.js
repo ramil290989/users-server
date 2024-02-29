@@ -1,8 +1,8 @@
 import 'dotenv/config';
 
-const { PORT } = process.env;
-const server = 'http://localhost';
-const avatarPath = `${server}:${PORT}/avatars/`;
+const { PORT, SERVER } = process.env;
+const avatarPath = `${SERVER}:${PORT}/avatars/`;
+const defaultAvatar = `${SERVER}:${PORT}/avatars/default.jpg`;
 
 const state = {
   userList: [
@@ -192,3 +192,4 @@ const state = {
 };
 
 export default state;
+export { defaultAvatar };
